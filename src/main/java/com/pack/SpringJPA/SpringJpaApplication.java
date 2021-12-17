@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
   
 @SpringBootApplication
-@EntityScan(basePackages = {"entity"})
+@EntityScan(basePackages= {"entity","com.pack.Test"})
 public class SpringJpaApplication {
 
 	public static void main(String[] args) {
