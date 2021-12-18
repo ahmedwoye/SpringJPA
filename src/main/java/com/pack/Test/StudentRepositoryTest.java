@@ -7,7 +7,9 @@ import com.pack.repository.StudentRepository;
 import entity.Student;
 
 @SpringBootTest
-  class StudentRepositoryTest {
+  public class StudentRepositoryTest {
+	
+	
 
 	@Autowired
 	private StudentRepository studentRepository;
